@@ -1,4 +1,4 @@
-package com.arteinpelle
+package com.grails.subscribe
 
 class SubscriptionController{
 	def index(){
