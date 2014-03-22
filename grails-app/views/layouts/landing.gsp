@@ -12,7 +12,9 @@
 		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">		
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'landing.css')}" type="text/css">
 		<g:layoutHead/>
+		<g:javascript library="jquery"/>
 		<g:javascript library="application"/>		
+		<g:javascript library="fbmanager"/>
 		<r:layoutResources />
 	</head>
 	<body>

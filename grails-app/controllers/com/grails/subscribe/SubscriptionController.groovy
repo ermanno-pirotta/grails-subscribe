@@ -6,7 +6,7 @@ class SubscriptionController{
 	}
 		
 	def subscribe(){
-		def subscription=new Subscription(email:params.email,lang:params.lang)	 		
+		def subscription=new Subscription(params)	 		
 		subscription.save()
 		render(view:'subscribe',model:[subscription:subscription])
 	}	
