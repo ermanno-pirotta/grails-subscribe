@@ -29,7 +29,8 @@ body{
     bottom: 20%;
     left: 0;
     right: 0;
-    margin: auto;	
+    margin: auto;
+    display: inline-flex;	
 }
 
 .rounded{
@@ -51,13 +52,15 @@ body{
 }
 
 .content{
-	height:80%;
+	margin: auto 5px;
 }
 
 .content div{
-	height:25%;
-	margin-left:20px;
-	margin-right:20px;
+	padding-top:10px;
+}
+
+.main-content{
+	height: 100%;	
 }
 
 .title{
@@ -100,13 +103,13 @@ input[type="text"]{
   height:103px !important;
   overflow: hidden;
   position: absolute;
-  top: -3px;
-  right: -3px;
+  top: -2px;
+  right: -2px;
   margin:0px !important;
 }
  
 .ribbon-green {
-  font-size:16px !important;
+  font-size:14px !important;
   text-align: center;
   text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
   -webkit-transform: rotate(45deg);
@@ -115,8 +118,8 @@ input[type="text"]{
   -o-transform:      rotate(45deg);
   position: relative;
   padding: 7px 0;
-  left: 25px;
-  top: 18px;
+  left: 24px;
+  top: 5px;
   width: 140px;
   background-color: #BFDC7A;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
@@ -146,14 +149,3 @@ input[type="text"]{
 .ribbon-green:after {
   right: 0;
 }
-
-.outer > p {  
-	position:absolute;
-	top:40%;
-	text-align:center !important;
-	width:100%;
-}
-
-.error{
-	color:red;
-}	
