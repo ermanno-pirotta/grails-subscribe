@@ -8,6 +8,10 @@ class Subscription{
 	String locale	
 	static constraints={
 		email(email:true,unique:true)
+		first_name nullable:true
+		gender nullable:true
+		last_name nullable:true	
+		locale nullable:true
 	}
 }
 
