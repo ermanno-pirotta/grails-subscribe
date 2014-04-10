@@ -51,8 +51,9 @@ body{
 	width:100%;
 }
 
-.content{
-	margin: auto 5px;
+.content{	
+	display:table;
+	height:100%
 }
 
 .content div{
@@ -60,7 +61,8 @@ body{
 }
 
 .main-content{
-	height: 100%;	
+	display:table-cell;
+	vertical-align:middle;
 }
 
 .title{

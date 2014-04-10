@@ -124,4 +124,4 @@ log4j = {
 grails.resources.rewrite.css = false
 
 //
-app.subscription.facebook.sdk.id=
+app.subscription.facebook.sdk.id=0
